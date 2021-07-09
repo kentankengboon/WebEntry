@@ -97,7 +97,7 @@ class AddProduct extends React.Component{
             paddingLeft: '20px',
             paddingRight: '20px',
             borderStyle: 'outset',
-            borderLeft: '50px solid pink',
+            borderLeft: '20px solid green',
             //borderRadius: '20px'
             }
         
