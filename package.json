@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/react-router-dom": "^5.1.8",
     "bootstrap": "^5.0.2",
     "firebase": "^8.7.0",
     "react-bootstrap": "^1.6.1",
