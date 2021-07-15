@@ -34,6 +34,7 @@ class ShowProduct extends React.Component{
             console.error(error);
         });
         desertRef.delete().then(function(){
+            alert("Item deleted")
             console.log("File deleted")
         }).catch(function(error){
             console.log("error hile deleting file")

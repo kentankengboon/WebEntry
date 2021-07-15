@@ -91,7 +91,6 @@ class ListProducts extends React.Component {
                 <tr>
                   <th>Part No.</th>
                   <th>Remark</th>
-                  <th>Key</th>
                   <th>Image</th>
                 </tr>
               </thead>
@@ -103,7 +102,6 @@ class ListProducts extends React.Component {
                       <Link to = {`/show/${product.key}`}>{product.whatPN}</Link>
                     </td>
                     <td>{product.remark}</td>
-                    <td>{product.key}</td>
                     <td><img src={product.image}width="100px" height="100" alt=""></img></td>
                   </tr>
                   )}
